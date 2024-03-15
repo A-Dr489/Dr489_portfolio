@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+}
+p {
+    font-size: 20px;
+}
+h1 {
+    line-height: 30px;
+}
+
+.columncont {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+/* col1 is here */
+.col1 {
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue;
+    color: white;
+    flex: 1;
+    gap: 70px;
+    max-height: 170px;
+    min-height: 170px;
+}
+
+.subcol1 {
+    flex: 2 1 0;
+    margin-left: 50px;
+    
+}
+
+.subcol2 {
+    flex: 0 0 auto;
+    margin-top: 10px;
+    
+}
+
+.subcol3 {
+    flex: 0 0 auto;
+    margin-top: 10px;
+}
+
+.subcol4 {
+    flex: 0 0 auto;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+/* col2 is here */
+.col2 {
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue;
+    color: white;
+    flex: 1;
+    justify-content: center;
+    gap: 200px;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.sub1 {
+    flex: 0 1 auto;
+    align-self: center;
+    max-width: 300px;
+    
+}
+
+.sub2 {
+    flex: 0 1 auto;
+    background-image: url(https://static.wikia.nocookie.net/leagueoflegends/images/7/7c/Aatrox_Winged_Render.png/revision/latest/scale-to-width/360?cb=20200319170500);
+    background-size: cover;
+    align-self: center;
+    padding: 100px 100px 140px 100px;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    border-radius: 27px;
+    font-size: 20px;
+}
+/* col4 is here */
+.col4 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-height: 270px;
+    min-height: 270px;
+}
+
+.box1 {
+    flex: 0 1 auto;
+    border: 5px solid blue;
+    border-radius: 27px;
+    padding: 100px;
+}
+
+.box2 {
+    flex: 0 1 auto;
+    border: 5px solid blue;
+    border-radius: 27px;
+    padding: 100px;
+}
+
+.box3 {
+    flex: 0 1 auto;
+    border: 5px solid blue;
+    border-radius: 27px;
+    padding: 100px;
+}
+
+.box4 {
+    flex: 0 1 auto;
+    border: 5px solid blue;
+    border-radius: 27px;
+    padding: 100px;
+}
+/* col3 is here */
+.col3 {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+/* col5 is here */
+.col5 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    gap: 60px;
+    min-height: 65px;
+    max-height: 65px;
+    margin-bottom: 50px;
+}
+
+.pbox1 {
+    flex: 0 0 auto;
+    max-width: 200px;
+    margin-left: 35px;
+}
+
+.pbox2 {
+    flex: 0 0 auto;
+    max-width: 200px;
+}
+
+.pbox3 {
+    flex: 0 0 auto;
+    max-width: 200px;
+    margin-left: 10px;
+}
+
+.pbox4 {
+    flex: 0 0 auto;
+    max-width: 200px;
+}
+/* col6 is here */
+.col6 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    max-height: 350px;
+    min-height: 350px;
+}
+
+.quote p {
+    font-size: 30px;
+}
+
+.quote {
+    flex: 0 1 auto;
+    padding: 100px;
+    max-width: 450px;
+    min-width: 450px;
+}
+
+.author p {
+    font-size: 22px;
+    margin-left: 250px;
+}
+
+.author {
+    flex: 0 1 auto;
+    width: 600px;
+}
+/* col7 is here */
+.col7 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    max-height: 400px;
+    min-height: 400px;
+}
+
+.signup1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 1 auto;
+    background-color: rgb(66, 66, 202);
+    max-height: 200px;
+    min-height: 200px;
+    width: 75%;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+.signh1 {
+    color: white;
+    margin-left: 170px;
+}
+
+.signbutton button {
+    color: white;
+    font-size: 30px;
+    background-color: rgb(66, 66, 202);
+    border-radius: 10px;
+    border-color: white;
+    margin: 0 auto;
+    margin-left: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* col8 is here */
+.col8 {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.footer {
+    flex: 0 1 auto;
+    color: white;
+}
